@@ -13,11 +13,7 @@ defmodule ChangeTrackingBugWeb.DemoLive do
       <p>Selected item is <%= inspect @choice %>.</p>
       <select name="choice">
         <%= for item <- @items do %>
-          <%= if item == @choice do %>
-            <option selected><%= item %></option>
-          <% else %>
-            <option><%= item %></option>
-          <% end %>
+          <option selected={item == @choice}><%= item %></option>
         <% end %>
       </select>
     </form>
