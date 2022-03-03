@@ -4,7 +4,7 @@ Maybe I’m trying to do something that’s not supported, but it feels like it 
 
 All the relevant code is in `lib/change_tracking_bug_web/live/demo.ex`.
 
-Visit (http://localhost:4000) and select a few different values from the list.
+Visit http://localhost:4000 and select a few different values from the list.
 The view will live-patch each time, updating the selected value in the URL and
 on the page.
 
