@@ -1,5 +1,13 @@
 # Change Tracking Bug
 
+## Update
+
+Turns out this is [expected
+behaviour](https://github.com/phoenixframework/phoenix_live_view/issues/1908#issuecomment-1058312734).
+Thanks as ever to José for his speedy response.
+
+----
+
 Maybe I’m trying to do something that’s not supported, but it feels like it should work.
 
 All the relevant code is in `lib/change_tracking_bug_web/live/demo.ex`.
